@@ -2,6 +2,7 @@
 **Dexin Guo**  
 February 2025  
 
+**See README.pdf for more detailed analysis**
 # Sufi (2009)  
 
 By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all empirical results in this write-up.
