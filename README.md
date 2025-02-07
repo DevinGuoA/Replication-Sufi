@@ -27,7 +27,8 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 
 - The trend in **Figure 1** is consistent with Sufi (2009) and remains robust when using alternative variable definitions (see **Appendix: Sufi (2009)**).  
 - In summary, slight changes in definitions could have significant effects on regressions that can’t be ignored. The robustness of the results shown by Sufi (2009) needs further discussion.
-<img width="771" alt="Screenshot 2025-02-07 at 3 09 59 PM" src="https://github.com/user-attachments/assets/ae7f2e80-c594-4134-8393-3b5212d06d91" />
+<img width="583" alt="Screenshot 2025-02-07 at 3 14 37 PM" src="https://github.com/user-attachments/assets/cb808068-a54e-491d-9427-9832880e7d26" />
+
 
 ## Discussion of the Reduced Form Regression  
 
