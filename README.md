@@ -88,6 +88,8 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 <img width="730" alt="Screenshot 2025-02-07 at 3 13 01 PM" src="https://github.com/user-attachments/assets/a20d1a48-0b1e-4d07-ba0f-4a65cb487bce" />
 
 ## Appendix: Sufi (2009)  
+The dataset for Sufi(2009) Appendix is generated as following:
+![image](https://github.com/user-attachments/assets/fd8eb312-cfd6-48ec-9337-a4a849de7574)
 
 The following results are generated using **within-year standard deviation** definitions to calculate the **cash flow volatility** and **industry sale volatility**.  
 
