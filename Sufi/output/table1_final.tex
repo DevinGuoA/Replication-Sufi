@@ -1,0 +1,32 @@
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Summary Statistics}
+    \begin{tabular}{l*{3}{c}*{3}{c}}
+    \toprule
+                    &\multicolumn{3}{c}{\textbf{\emph{Full Sample}}} & \multicolumn{3}{c}{\textbf{\emph{Random Sample}}} \\
+                    & \multicolumn{1}{c}{{Mean}} & \multicolumn{1}{c}{{Median}} & \multicolumn{1}{c}{{St.Dev}} & 
+                     \multicolumn{1}{c}{{Mean}} & \multicolumn{1}{c}{{Median}} & \multicolumn{1}{c}{{St.Dev}} \\
+    \midrule
+    \textit{Line of Credit Variables} & & & & & & \\
+    Has line of credit {0,1}          & 0.823  & 1.000 & 0.381 & 0.756  & 1.000 & 0.429 \\
+    Total line of credit/assets       &        &       &       & 0.163  & 0.115 & 0.172 \\
+    Unused line of credit/assets      &        &       &       & 0.104  & 0.069 & 0.127 \\
+    Used line of credit/assets        &        &       &       & 0.059  & 0.000 & 0.099 \\
+    \textit{Firm Characteristics}     &       &      &      &       &      &      \\
+    Book debt/assets                  & 0.201  & 0.175 & 0.179 & 0.203  & 0.178 & 0.183 \\
+    EBITDA/(assets-cash)              & 0.048  & 0.122 & 0.294 & 0.057  & 0.122 & 0.292 \\
+    Tangible assets/(assets-cash)     & 0.338  & 0.276 & 0.240 & 0.336  & 0.283 & 0.228 \\
+    Net worth, cash adjusted          & 0.783  & 0.599 & 0.592 & 0.787  & 0.610 & 0.589 \\
+    Assets-cash                       & 813.203 & 116.757 & 1661.312 & 809.831 & 124.783 & 1658.685 \\
+    Market-to-book, cash adjusted     & 4.414  & 2.495 & 7.102 & 4.339  & 2.467 & 6.668 \\
+    Industry sales volatility         & 0.099  & 0.083 & 0.047 & 0.104  & 0.083 & 0.050 \\
+    Cash-flow volatility              & 0.147  & 0.057 & 0.215 & 0.143  & 0.058 & 0.211 \\
+    Not in an S\&P index {0,1}        & 0.223  & 0.000 & 0.416 & 0.235  & 0.000 & 0.424 \\
+    Traded over the counter {0,1}     & 0.430  & 0.000 & 0.495 & 0.420  & 0.000 & 0.494 \\
+    Firm age (years since IPO)        & 6.199  & 6.000 & 3.490 & 6.003  & 6.000 & 3.536 \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
