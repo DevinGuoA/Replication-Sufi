@@ -13,7 +13,9 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 - **Cash flow volatility**: Defined as the standard deviation of cash flows over a five-year rolling window in the main results and as the standard deviation of quarterly cash flows within a year in Appendix: Sufi (2009).  
 - **Industry sales volatility**: Defined as the standard deviation of industry sales over a five-year rolling window in the main results and as the standard deviation of quarterly industry sales within a year in Appendix: Sufi (2009).  
 - **Firm age and Ln(firm age)**: Due to a high proportion of missing values in the firm-year observations of the Sufi (2009) dataset, missing firm age is replaced by the mean firm age in the industry in the same year. If `data year = IPO year`, then `firm age = 0`. Instead of using `Ln(firm age)`, we use `Ln(firm age + 1)` to ensure all values remain positive.  
-- **Assets-cash**: Aligned with the winsorization process in other variables, we show assets minus cash after winsorization at the 5% level.  
+- **Assets-cash**: Aligned with the winsorization process in other variables, we show assets minus cash after winsorization at the 5% level.
+<img width="548" alt="Screenshot 2025-02-07 at 3 06 55 PM" src="https://github.com/user-attachments/assets/b35a6df6-02c5-4297-b5d9-bbd2ff8c4c10" />
+
 
 ## Discussion of Regression Results  
 
