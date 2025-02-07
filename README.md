@@ -30,14 +30,14 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 - This paper tries to answer the question: **What factors determine the use of bank credit?** The two stages are as follows:  
 
   **First Stage**:  
-  \[
+  $
   \Pr(\text{get use of credit}) = f(\text{possible factors})
-  \]  
+  $  
 
   **Second Stage**:  
-  \[
+  $
   \Pr(\text{has line of credit}) / \text{The amount/proportion of credit used} = g(\Pr(\text{get use of credit}))
-  \]  
+  $  
 
 - However, we only have reduced form regression presented here in **Table 3**, which is not the whole story.  
 
