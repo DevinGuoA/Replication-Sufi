@@ -38,5 +38,54 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 
 - However, we only have reduced form regression presented here in **Table 3**, which is not the whole story.  
 
+## Discussion of Variable Definitions  
+
+- Due to the long right tail of **Net Debt Issuance** and **Net Equity Issuance** (1% quantile = -1775, 95% quantile = 4253), we winsorize these variables using asymmetric quantile settings (1% and 85% for **Net Equity Issuance**). The results are consistent with Sufi and Roberts (2009).  
+
+- Instead of using **txditc** (yearly deferred taxes and investment tax credit) as in Sufi (2009), we use **txditcq** (quarterly level) for consistency with other variables.  
+
+- **Book equity** is defined as:  
+  $\text{book value equity} = \text{seq} - \text{pstkq} + \text{ceqq} - \text{txditcq}$
+
+## Discussion of Regression Results  
+
+- **Our results are inconsistent with Sufi and Roberts (2009) in several aspects**, especially in first difference regression:  
+
+  - **In Panel A**:  
+    - The coefficient of **Covenant violation** in column (1) has a different direction, though it is statistically insignificant.  
+    - The coefficients of **lag Covenant violation** are consistent with Sufi and Roberts but are more significant economically.  
+
+  - **In Panel B**:  
+    - The coefficients of **lag Covenant violation** are less economically significant compared with Sufi (2009) results.  
+    - The coefficients of **Covenant violation** are more economically significant, though they remain statistically insignificant for columns (3)–(4).  
+
+### Possible Reasons  
+
+- **Use of `txditcq` instead of `txditc`** introduces two effects due to the change in definition:  
+  - First, the number of observations changes due to the difference between `missing(txditcq)` and `missing(txditc)`.  
+  - Second, the **Market-to-book Ratio** has economically and statistically significant correlation with the dependent variable. For example, in all fixed-effect regressions, the coefficient of **Market-to-book Ratio\(_t\)** is significant at 1% with a value of approximately 4.5.  
+
+### Potential Problems in the Order of Winsorizing the Lag Control Variables and Generating Lag Variables  
+
+- In Sufi and Roberts (2009), all **lag control variables** are winsorized at 5%. In contrast, in my `clean.do` file, I winsorize the variables before generating the lag terms to:  
+  - Prevent double-winsorization. For example, winsorizing **Assets (at)** automatically addresses outliers in **Lag Assets**.  
+
+- **Potential issue**:  
+  - Lag terms are generated using observations outside the research period, leading to winsorization with extra observations and potentially introducing new information.  
+
+- The coefficients of key variables differ from Sufi and Roberts (2009) when using lagged one-quarter differences for control variables in the **Panel B** regression. Specifically:  
+  - **Covenant violation** turns negatively significant.  
+  - **Lag Covenant violation** becomes insignificant (see **Appendix: Sufi and Roberts (2009)**).
+
+## Appendix: Sufi (2009)  
+
+The following results are generated using **within-year standard deviation** definitions to calculate the **cash flow volatility** and **industry sale volatility**.  
+
+- **Table 1A** shows that under these definitions, the variance and the scale of these variables are relatively small compared with Sufi (2009) and Table 1.  
+
+- Since it requires at least 2 quarters of observations of cash flow/industry sales to generate within-year standard deviations, fewer observations are included in our datasets.  
+
+- **Figure 1A** shows consistent results with Sufi (2009) and Figure 1.  
+
 
 
