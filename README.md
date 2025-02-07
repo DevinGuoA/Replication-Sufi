@@ -23,6 +23,23 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
   - There are 1,676 fewer observations in the full sample (column (1)) compared to Sufi (2009), all of which are **inactive firms**.  
 
 - The trend in **Figure 1** is consistent with Sufi (2009) and remains robust when using alternative variable definitions (see **Appendix: Sufi (2009)**).  
-- In summary, slight changes in definitions could have significant effects on regressions that can’t be ignored. The robustness of the results shown by Sufi (2009) needs further discussion.  
+- In summary, slight changes in definitions could have significant effects on regressions that can’t be ignored. The robustness of the results shown by Sufi (2009) needs further discussion.
+
+## Discussion of the Reduced Form Regression  
+
+- This paper tries to answer the question: **What factors determine the use of bank credit?** The two stages are as follows:  
+
+  **First Stage**:  
+  \[
+  \Pr(\text{get use of credit}) = f(\text{possible factors})
+  \]  
+
+  **Second Stage**:  
+  \[
+  \Pr(\text{has line of credit}) / \text{The amount/proportion of credit used} = g(\Pr(\text{get use of credit}))
+  \]  
+
+- However, we only have reduced form regression presented here in **Table 3**, which is not the whole story.  
+
 
 
