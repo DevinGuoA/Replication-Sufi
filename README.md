@@ -42,7 +42,7 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 - However, we only have reduced form regression presented here in **Table 3**, which is not the whole story.
 - <img width="1091" alt="Screenshot 2025-02-07 at 3 10 36 PM" src="https://github.com/user-attachments/assets/aec9309b-8efc-4823-983c-e97aeee41f4a" />
 
-
+# Sufi and Roberts(2009)
 ## Discussion of Variable Definitions  
 
 - Due to the long right tail of **Net Debt Issuance** and **Net Equity Issuance** (1% quantile = -1775, 95% quantile = 4253), we winsorize these variables using asymmetric quantile settings (1% and 85% for **Net Equity Issuance**). The results are consistent with Sufi and Roberts (2009).  
@@ -51,6 +51,8 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 
 - **Book equity** is defined as:  
   $\text{book value equity} = \text{seq} - \text{pstkq} + \text{ceqq} - \text{txditcq}$
+
+<img width="469" alt="Screenshot 2025-02-07 at 3 12 07 PM" src="https://github.com/user-attachments/assets/e10eed86-77e3-443f-8fd8-8202ade573b1" />
 
 ## Discussion of Regression Results  
 
@@ -81,6 +83,8 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 - The coefficients of key variables differ from Sufi and Roberts (2009) when using lagged one-quarter differences for control variables in the **Panel B** regression. Specifically:  
   - **Covenant violation** turns negatively significant.  
   - **Lag Covenant violation** becomes insignificant (see **Appendix: Sufi and Roberts (2009)**).
+
+<img width="730" alt="Screenshot 2025-02-07 at 3 13 01 PM" src="https://github.com/user-attachments/assets/a20d1a48-0b1e-4d07-ba0f-4a65cb487bce" />
 
 ## Appendix: Sufi (2009)  
 
