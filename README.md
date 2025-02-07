@@ -88,7 +88,7 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 <img width="730" alt="Screenshot 2025-02-07 at 3 13 01 PM" src="https://github.com/user-attachments/assets/a20d1a48-0b1e-4d07-ba0f-4a65cb487bce" />
 
 ## Appendix: Sufi (2009)  
-The dataset for Sufi(2009) Appendix is generated as following:
+The firm characteristics dataset for Sufi(2009) Appendix is generated as following:
 ![image](https://github.com/user-attachments/assets/fd8eb312-cfd6-48ec-9337-a4a849de7574)
 
 The following results are generated using **within-year standard deviation** definitions to calculate the **cash flow volatility** and **industry sale volatility**.  
@@ -114,5 +114,15 @@ The following table shows factors that drive the drop of observations which are 
 This table shows the Panel B for using lagged one-quarter controls in the regression, detailed discussions are shown above.
 
 <img width="691" alt="Screenshot 2025-02-07 at 3 20 49 PM" src="https://github.com/user-attachments/assets/cff708c7-4e1b-4482-b308-03459a8d1eae" />
+
+## Appendix for do-file structure
+In both replication works, you could expect to get all the empirical results shown in this README.md, however the following structure might could help you better understand the sturcture of the do_file organizations:
+
+### Sufi(2009)
+![image](https://github.com/user-attachments/assets/c53f4ca2-5d88-4bc1-aa16-ba242a71e649)
+
+### Sufi and Roberts(2009)
+![image](https://github.com/user-attachments/assets/d99c0325-d451-40d3-924d-5fe456205b00)
+
 
 
