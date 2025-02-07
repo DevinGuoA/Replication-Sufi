@@ -1,0 +1,43 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    &Firm has line of credit{0,1} Probit (Marginal Effects)         &                     &Total line/(total line + cash) OLS         &                     &Unused line/(unused line + cash) OLS         &                     \\
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{Has line of credit {0,1}}&\multicolumn{1}{c}{Has line of credit {0,1}}&\multicolumn{1}{c}{Total line/(total line+cash)}&\multicolumn{1}{c}{Total line/(total line+cash)}&\multicolumn{1}{c}{Unused line/(unused line + cash)}&\multicolumn{1}{c}{Unused line/(unused line + cash)}\\
+\midrule
+main                &                     &                     &                     &                     &                     &                     \\
+$\frac{\text{EBITDA}}{\text{assets-cash}}\_{t-1}$&       0.457\sym{***}&       0.307         &       0.024         &       0.049         &       0.038         &       0.123         \\
+                    &     (0.064)         &     (0.310)         &     (0.048)         &     (0.067)         &     (0.044)         &     (0.068)         \\
+\addlinespace
+$\frac{\text{Tangible assets}}{\text{assets-cash}}\_{t-1}$&       0.002         &       0.172         &      -0.020         &      -0.052         &      -0.033         &      -0.089         \\
+                    &     (0.090)         &     (0.430)         &     (0.078)         &     (0.059)         &     (0.075)         &     (0.070)         \\
+\addlinespace
+$\text{Ln(assets-cash)}\_{t-1}$&       0.142\sym{***}&       0.137\sym{*}  &       0.031\sym{*}  &       0.006         &       0.042\sym{***}&       0.030\sym{**} \\
+                    &     (0.014)         &     (0.063)         &     (0.012)         &     (0.009)         &     (0.011)         &     (0.011)         \\
+\addlinespace
+$\text{Net worth, cash adjusted}\_{t-1}$&      -0.633\sym{***}&      -1.083\sym{***}&      -0.288\sym{***}&      -0.318\sym{***}&      -0.223\sym{***}&      -0.209\sym{***}\\
+                    &     (0.033)         &     (0.163)         &     (0.029)         &     (0.037)         &     (0.028)         &     (0.041)         \\
+\addlinespace
+$\text{Market-to-book, cash adjusted}\_{t-1}$&      -0.007\sym{**} &       0.002         &      -0.003\sym{*}  &      -0.008\sym{***}&      -0.003         &      -0.007\sym{**} \\
+                    &     (0.002)         &     (0.010)         &     (0.002)         &     (0.002)         &     (0.002)         &     (0.002)         \\
+\addlinespace
+$\text{Industry sales volatility}\_{t-1}$&     -43.961         &    -150.755         &       0.857         &      22.473         &      15.052         &      38.421         \\
+                    &    (33.269)         &   (126.558)         &    (23.223)         &    (21.488)         &    (21.795)         &    (22.944)         \\
+\addlinespace
+Not in an S\&P index {0,1}&      -0.052         &       0.247         &       0.049         &       0.043         &       0.062         &       0.055         \\
+                    &     (0.054)         &     (0.178)         &     (0.035)         &     (0.027)         &     (0.036)         &     (0.030)         \\
+\addlinespace
+Traded over the counter {0,1}&      -0.018         &       0.059         &      -0.043         &      -0.039         &      -0.041         &      -0.034         \\
+                    &     (0.044)         &     (0.168)         &     (0.037)         &     (0.032)         &     (0.037)         &     (0.035)         \\
+\addlinespace
+$\text{Firm age (years since IPO)}\_{t-1}$&      -0.286\sym{***}&      -0.442\sym{*}  &      -0.123\sym{***}&      -0.109\sym{***}&      -0.102\sym{**} &      -0.092\sym{**} \\
+                    &     (0.049)         &     (0.188)         &     (0.034)         &     (0.031)         &     (0.034)         &     (0.034)         \\
+\midrule
+Observations        &       22100         &        1462         &        1462         &        1112         &        1462         &        1112         \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize Full = Full Sample, Random = Random Sample}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
