@@ -103,4 +103,14 @@ The following results are generated using **within-year standard deviation** def
 
 <img width="1095" alt="Screenshot 2025-02-07 at 3 15 22 PM" src="https://github.com/user-attachments/assets/c6773ec5-97d5-48e9-813d-0f3cec68b004" />
 
+The following table shows factors that drive the drop of observations which are included in Sufi (2009) datasets:
+
+<img width="425" alt="Screenshot 2025-02-07 at 3 19 36 PM" src="https://github.com/user-attachments/assets/96b23d1b-361f-42ea-ab90-35e67a7fcbaf" />
+
+## Appendix Sufi and Roberts (2009)
+
+This table shows the Panel B for using lagged one-quarter controls in the regression, detailed discussions are shown above.
+
+<img width="691" alt="Screenshot 2025-02-07 at 3 20 49 PM" src="https://github.com/user-attachments/assets/cff708c7-4e1b-4482-b308-03459a8d1eae" />
+
 
