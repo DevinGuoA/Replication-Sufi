@@ -96,5 +96,8 @@ The following results are generated using **within-year standard deviation** def
 
 - **Figure 1A** shows consistent results with Sufi (2009) and Figure 1.  
 
+<img width="630" alt="Screenshot 2025-02-07 at 3 13 42 PM" src="https://github.com/user-attachments/assets/d75c6b99-9099-458a-b4b8-ac3845eeabe0" />
+<img width="576" alt="Screenshot 2025-02-07 at 3 13 46 PM" src="https://github.com/user-attachments/assets/5f40d921-4a94-4240-b60c-47131c1994a7" />
+
 
 
