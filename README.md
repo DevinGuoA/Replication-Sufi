@@ -16,10 +16,10 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 
 ## Discussion of Regression Results  
 
-- The key regression results \(\frac{\text{EBITDA}}{\text{assets-cash}_{t-1}}\) are aligned with Sufi (2009) in terms of the direction and significance of the coefficients. The trend shown in Figure 1 is also consistent. However, several aspects deserve attention:  
+- The key regression results $\(\frac{\text{EBITDA}}{\text{assets-cash}_{t-1}}\)$ are aligned with Sufi (2009) in terms of the direction and significance of the coefficients. The trend shown in Figure 1 is also consistent. However, several aspects deserve attention:  
 
-  - With \(\ln(\text{firm age} + 1)\), the coefficient is **negatively significant** across all regressions, highlighting the importance of considering the sign of \(\ln(\text{firm age})\).  
-  - The coefficient of \(\frac{\text{EBITDA}}{\text{assets-cash}_{t-1}}\) becomes statistically insignificant in columns (3)–(6), possibly due to differences in variable definitions and datasets.  
+  - With $\(\ln(\text{firm age} + 1)\)$, the coefficient is **negatively significant** across all regressions, highlighting the importance of considering the sign of $\(\ln(\text{firm age})\)$.  
+  - The coefficient of $\(\frac{\text{EBITDA}}{\text{assets-cash}_{t-1}}\)$ becomes statistically insignificant in columns (3)–(6), possibly due to differences in variable definitions and datasets.  
   - There are 1,676 fewer observations in the full sample (column (1)) compared to Sufi (2009), all of which are **inactive firms**.  
 
 - The trend in **Figure 1** is consistent with Sufi (2009) and remains robust when using alternative variable definitions (see **Appendix: Sufi (2009)**).  
