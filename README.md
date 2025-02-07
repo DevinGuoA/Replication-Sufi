@@ -27,6 +27,7 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 
 - The trend in **Figure 1** is consistent with Sufi (2009) and remains robust when using alternative variable definitions (see **Appendix: Sufi (2009)**).  
 - In summary, slight changes in definitions could have significant effects on regressions that can’t be ignored. The robustness of the results shown by Sufi (2009) needs further discussion.
+<img width="771" alt="Screenshot 2025-02-07 at 3 09 59 PM" src="https://github.com/user-attachments/assets/ae7f2e80-c594-4134-8393-3b5212d06d91" />
 
 ## Discussion of the Reduced Form Regression  
 
@@ -38,7 +39,9 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
   **Second Stage**:  
   $\Pr(\text{has line of credit}) / \text{The amount/proportion of credit used} = g(\Pr(\text{get use of credit}))$  
 
-- However, we only have reduced form regression presented here in **Table 3**, which is not the whole story.  
+- However, we only have reduced form regression presented here in **Table 3**, which is not the whole story.
+- <img width="1091" alt="Screenshot 2025-02-07 at 3 10 36 PM" src="https://github.com/user-attachments/assets/aec9309b-8efc-4823-983c-e97aeee41f4a" />
+
 
 ## Discussion of Variable Definitions  
 
