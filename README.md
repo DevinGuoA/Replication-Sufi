@@ -1,12 +1,15 @@
-# Sufi (2009), Sufi and Roberts (2009) Replication  
+# How to replicate my write up 
 **Dexin Guo**  
 February 2025  
 
-**See Write-up.pdf for more detailed analysis and the data needed provided through email or cloud file sharing**
+**See Write-up.pdf for more detailed analysis**
 # Sufi (2009)  
 
-By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all empirical results in this write-up.
+By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all empirical results in Sufi(2009).
 
+## Raw data used
+`BA952 Replication/Sufi/raw_data` includes the following dataset:
+- `sufi(2009)` is the dataset provided by sufi, which includes the key variables *lineun* *line* *linetot* *lineofcredit_rs* *lineofcredit* *def*
 
 ### Definitions Discussion  
 
