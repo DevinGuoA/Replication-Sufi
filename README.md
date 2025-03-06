@@ -17,7 +17,7 @@ First, to align with Sufi(2009)'s approach, we use 5-year rolling standard devia
 - `cash_flow_volatility_window.dta`
 - `industry_volatility_window.dta`
 
-$\text{Volatility}_i = \sqrt{\frac{1}{5} \sum_{t=t-4}^{t} (var_{i,t} - \bar{var}_{i,t})^2}$
+$$\text{Volatility}_i = \sqrt{\frac{1}{5} \sum_{t=t-4}^{t} (var_{i,t} - \bar{var}_{i,t})^2}$$
 
 Second, we also use standard deviation of quarterly observations within a year to measure the cash flow volatility and industry sale volatility, the quartly dataset used downloading from Compustat are as follows:
 - `cash_flow_volatility_quarterly.dta`
