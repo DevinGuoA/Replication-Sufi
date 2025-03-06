@@ -17,12 +17,14 @@ First, to align with Sufi(2009)'s approach, we use 5-year rolling standard devia
 - `cash_flow_volatility_window.dta`
 - `industry_volatility_window.dta`
 
-$`\text{Volatility}_i = \sqrt{\frac{1}{5} \sum_{t=t-4}^{t} (var_{i,t} - \bar{var}_{i,t})^2}`$
-
+$`\text{Yearly Volatility}_i = \sqrt{\frac{1}{5} \sum_{t=t-4}^{t} (var_{i,t} - \bar{var}_{i,t})^2}`$
+- $`var`$ is the variables of firm $`i`$ in year $`y`$
 Second, we also use standard deviation of quarterly observations within a year to measure the cash flow volatility and industry sale volatility, the quartly dataset used downloading from Compustat are as follows:
 - `cash_flow_volatility_quarterly.dta`
 - `industry_volatility_quarterly.dta`
 
+$`\text{Quarterly Volatility}_i = \sqrt{\frac{1}{4} \sum_{q=1}^{4} (var_{i,q} - \bar{var}_{i,y})^2}`$
+- $`var`$ is the variables of firm $`i`$ in quarter $`q`$ of year $`y`$
 ### Definitions Discussion  
 
 - **Cash flow volatility**: Defined as the standard deviation of cash flows over a five-year rolling window in the main results and as the standard deviation of quarterly cash flows within a year in Appendix: Sufi (2009).  
