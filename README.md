@@ -7,15 +7,15 @@ February 2025
 
 By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all empirical results in Sufi(2009).
 
-## Raw data used
-`BA952 Replication/Sufi/raw_data` includes the following dataset:
-- `sufi(2009).dta` is the dataset provided by sufi, which includes the key variables *lineun* *line* *linetot* *lineofcredit_rs* *lineofcredit* *def*, please see https://faculty.chicagobooth.edu/amir-sufi/research/refereed-publications for more details.
+## Raw Data Used
+
+`BA952 Replication/Sufi/raw_data` includes the following datasets:
+
+- `sufi(2009).dta` is the dataset provided by Sufi, which includes the key variables $'\text{lineun}'$, $'\text{line}'$, $'\text{linetot}'$, $'\text{lineofcredit\_rs}'$, $'\text{lineofcredit}'$, and $'\text{def}'$. Please see [Sufi's research publications](https://faculty.chicagobooth.edu/amir-sufi/research/refereed-publications) for more details.
 - `annual_fundamental.dta` is the dataset downloaded from Compustat, which includes the annual accounting variables needed to replicate the results.
-- `sp500.dta` is the monthly dataset for S&P 500 indicators, which includes the key variable *spmim*
-And we use two methods to generate cash flow volatility and industry sale volatility in this replication:
-First, to align with Sufi(2009)'s approach, we use 5-year rolling standard deviation of cash flow and industry sale to generate these variables, the yearly dataset used downloading from Compustat are as follows:
-- `cash_flow_volatility_window.dta`
-- `industry_volatility_window.dta`
+- `sp500.dta` is the monthly dataset for S&P 500 indicators, which includes the key variable $'\text{spmim}'$.
+
+We use two methods to generate **cash flow volatility** and **industry sales volatility** in this replication:
 
 $`\text{Yearly Volatility}_i = \sqrt{\frac{1}{5} \sum_{t=t-4}^{t} (var_{i,t} - \bar{var}_{i,t})^2}`$
 - $`var`$ is the variables of firm $`i`$ in year $`y`$
