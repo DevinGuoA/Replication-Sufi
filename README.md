@@ -16,6 +16,7 @@ And we use two methods to generate cash flow volatility and industry sale volati
 First, to align with Sufi(2009)'s approach, we use 5-year rolling standard deviation of cash flow and industry sale to generate these variables, the yearly dataset used downloading from Compustat are as follows:
 - `cash_flow_volatility_window.dta`
 - `industry_volatility_window.dta`
+
 Second, we also use quarterly standard deviation of quarterly observations within a year to measure the cash flow volatility and industry sale volatility, the quartly dataset used downloading from Compustat are as follows:
 - `cash_flow_volatility_quarterly.dta`
 - `industry_volatility_quarterly.dta`
