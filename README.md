@@ -9,7 +9,7 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 
 ## Raw data used
 `BA952 Replication/Sufi/raw_data` includes the following dataset:
-- `sufi(2009).dta` is the dataset provided by sufi, which includes the key variables *lineun* *line* *linetot* *lineofcredit_rs* *lineofcredit* *def*, please see https://faculty.chicagobooth.edu/amir-sufi/research/refereed-publications for more details
+- `sufi(2009).dta` is the dataset provided by sufi, which includes the key variables *lineun* *line* *linetot* *lineofcredit_rs* *lineofcredit* *def*, please see https://faculty.chicagobooth.edu/amir-sufi/research/refereed-publications for more details.
 - `annual_fundamental.dta` is the dataset downloaded from Compustat, which includes the annual accounting variables needed to replicate the results.
 - `sp500.dta` is the monthly dataset for S&P 500 indicators, which includes the key variable *spmim*
 And we use two methods to generate cash flow volatility and industry sale volatility in this replication:
