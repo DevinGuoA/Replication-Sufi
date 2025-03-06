@@ -15,7 +15,6 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 - `annual_fundamental.dta` is the dataset downloaded from Compustat, which includes the annual accounting variables needed to replicate the results.
 - `sp500.dta` is the monthly dataset for S&P 500 indicators, which includes the key variable $'\text{spmim}'$.
 
-
 We use two methods to generate **cash flow volatility** and **industry sales volatility** in this replication:
 
 $`\text{Yearly Volatility}_i = \sqrt{\frac{1}{5} \sum_{t=t-4}^{t} (var_{i,t} - \bar{var}_{i,t})^2}`$
