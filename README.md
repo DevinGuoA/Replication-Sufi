@@ -8,7 +8,7 @@ By running `BA952 Replication/Sufi/do_file/main.do`, you are expected to get all
 
 `BA952 Replication/Sufi/raw_data` includes the following datasets:
 
-- `sufi(2009).dta` is the dataset provided by Sufi, which includes the key variables lineun, line, linetot,lineofcredit_rs, lineofcredit, and def. Please see [Sufi's research publications](https://faculty.chicagobooth.edu/amir-sufi/research/refereed-publications) for more details.
+- `sufi(2009).dta` is the dataset provided by Sufi, which includes the key variables *lineun*, *line*, *linetot*,*lineofcredit_rs*, *lineofcredit*, and *def*. Please see [Sufi's research publications](https://faculty.chicagobooth.edu/amir-sufi/research/refereed-publications) for more details.
 - `annual_fundamental.dta` is the dataset downloaded from Compustat, which includes the annual accounting variables needed to replicate the results.
 - `sp500.dta` is the monthly dataset for S&P 500 indicators, which includes the key variable $ \text{spmim} $.
 
@@ -37,7 +37,10 @@ By running `0main.do`, you are expected to get all the empirical results in the 
 # Sufi and Roberts (2009)  
 
 ## Raw Data Used
-
+'BA952 Replication/Sufi and Roberts/raw_data' includes the following datasets:
+- `quarterly_fundamental.dta` is the quarterly accounting data from Compustat
+- `violation.dta` is the unique dataset provided by Sufi and Roberts, which includes key variable *violtion*, Please see [Sufi's research publications](https://faculty.chicagobooth.edu/amir-sufi/research/refereed-publications) for more details.
+- `sp500.dta` is the monthly dataset for S&P 500 indicators, which includes the key variable $ \text{spmim} $.
 ## Do file Structure
 
 By running  `0main.do`, you are expected to get all the empirical results in the replication. Specifically, it is connected to the following do files:
