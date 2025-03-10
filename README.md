@@ -35,5 +35,7 @@ By running `0main.do`, you are expected to get all the empirical results in the 
 - `3table/figure.do`: output the empirical results of the corresponding table or figure.
 - `4diagnostic.do`: conduct the analysis on why the empirical results are not perfectly align with Sufi(2009) by summarizing the difference between the sample used.
 
+![image](https://github.com/user-attachments/assets/880dcbe1-c2dc-4f4f-b03e-1d0da5ca40b0)
+
 
 
