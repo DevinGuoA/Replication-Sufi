@@ -26,6 +26,14 @@ Second, we also use standard deviation of quarterly observations within a year t
 $`\text{Quarterly Volatility}_i = \sqrt{\frac{1}{4} \sum_{q=1}^{4} (var_{i,q} - \bar{var}_{i,y})^2}`$
 - $`var`$ is the variables of firm $`i`$ in quarter $`q`$ of year $`y`$
 
+## Do file Structure
+
+By running `0main.do`, you are expected to get all the empirical results in the replication. Specifically, it is connected to the following do files:
+- `1merge_clean.do`: cleans the accounting variables from CRSP and merge with Sufi(2009) speicic dataset
+- `1clean_basic.do`: implements the exclusion conditions to drop the abnormal observations and winsorize the variables
+- `1clean_appendix.do`: cleans the variable using the alternative definitions as discussed above
+- `3table/figure.do`: output the empirical results of the corresponding table or figure.
+- `4diagnostic.do`: conduct the analysis on why the empirical results are not perfectly align with Sufi(2009) by summarizing the difference between the sample used.
 
 
 
