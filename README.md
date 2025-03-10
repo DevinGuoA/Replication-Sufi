@@ -26,7 +26,7 @@ $`\text{Quarterly Volatility}_i = \sqrt{\frac{1}{4} \sum_{q=1}^{4} (var_{i,q} - 
 ## Do file Structure
 
 By running `0main.do`, you are expected to get all the empirical results in the replication. Specifically, it is connected to the following do files:
-- `1merge_clean.do`: cleans the accounting variables from CRSP and merge with Sufi(2009) speicic dataset
+- `1merge_clean.do`: cleans the accounting variables from Compustat and merge with Sufi(2009) speicic dataset
 - `1clean_basic.do`: implements the exclusion conditions to drop the abnormal observations and winsorize the variables
 - `1clean_appendix.do`: cleans the variable using the alternative definitions as discussed above
 - `3table/figure.do`: output the empirical results of the corresponding table or figure.
@@ -34,5 +34,16 @@ By running `0main.do`, you are expected to get all the empirical results in the 
 
 ![image](https://github.com/user-attachments/assets/880dcbe1-c2dc-4f4f-b03e-1d0da5ca40b0)
 
+# Sufi and Roberts (2009)  
 
+## Raw Data Used
+
+## Do file Structure
+
+By running  `0main.do`, you are expected to get all the empirical results in the replication. Specifically, it is connected to the following do files:
+-  `1clean.do`: cleans the accounting variables from Compustat and merge the firm characteristics with Sufi and Roberts(2009) specific data
+-  `1clean_first_difference.do`: generates the first difference of the variables used in the regression according to Sufi and Roberts(2009)'s definition.
+-  `1clean_first_difference_Appendix.do`: generates the first difference of the variables using only lagged one period.
+-  '2table.do': output the empirical results of the corresponding tables.
+![image](https://github.com/user-attachments/assets/ba80a214-3346-40ad-b27c-517b3b6f454c)
 
